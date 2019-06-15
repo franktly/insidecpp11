@@ -1,0 +1,9 @@
+Scanning dependencies of target chapter2
+[ 50%] Building CXX object bin/CMakeFiles/chapter2.dir/main.cpp.o
+/home/franktly/insidecpp11/chapter2/src/main.cpp: In destructor ‘A::~A()’:
+/home/franktly/insidecpp11/chapter2/src/main.cpp:149:15: warning: throw will always call terminate() [-Wterminate]
+  ~A() { throw 1;}
+               ^
+/home/franktly/insidecpp11/chapter2/src/main.cpp:149:15: note: in C++11 destructors default to noexcept
+[100%] Linking CXX executable chapter2
+[100%] Built target chapter2

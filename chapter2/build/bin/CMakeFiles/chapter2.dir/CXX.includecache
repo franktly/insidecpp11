@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/franktly/insidecpp11/chapter2/src/main.cpp
+iostream
+-
+climits
+-
+cassert
+-
+stdio.h
+-
+cstring
+-
+
