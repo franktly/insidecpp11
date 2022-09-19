@@ -1,5 +1,0 @@
-/home/franktly/insidecpp11/chapter2/build/CMakeFiles/rebuild_cache.dir
-/home/franktly/insidecpp11/chapter2/build/CMakeFiles/edit_cache.dir
-/home/franktly/insidecpp11/chapter2/build/bin/CMakeFiles/rebuild_cache.dir
-/home/franktly/insidecpp11/chapter2/build/bin/CMakeFiles/chapter2.dir
-/home/franktly/insidecpp11/chapter2/build/bin/CMakeFiles/edit_cache.dir
