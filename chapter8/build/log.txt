@@ -1,0 +1,36 @@
+Scanning dependencies of target chapter8
+[ 50%] Building CXX object bin/CMakeFiles/chapter8.dir/main.cpp.o
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:153:44: warning: ‘attr3’ attribute directive ignored [-Wattributes]
+  153 | [[attr1]] int func [[attr2]]([[attr3]] int i, [[attr4]] int j)
+      |                                            ^
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:153:61: warning: ‘attr4’ attribute directive ignored [-Wattributes]
+  153 | [[attr1]] int func [[attr2]]([[attr3]] int i, [[attr4]] int j)
+      |                                                             ^
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:153:62: warning: ‘attr1’ attribute directive ignored [-Wattributes]
+  153 | [[attr1]] int func [[attr2]]([[attr3]] int i, [[attr4]] int j)
+      |                                                              ^
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:153:62: warning: ‘attr2’ attribute directive ignored [-Wattributes]
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp: In function ‘int func(int, int)’:
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:156:5: warning: attributes at the beginning of statement are ignored [-Wattributes]
+  156 |     [[attr5]] return i + j;
+      |     ^~~~~~~~~
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp: At global scope:
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:182:43: warning: ‘carries_dependency’ attribute directive ignored [-Wattributes]
+  182 | void func_in2([[carries_dependency]] int* val)
+      |                                           ^~~
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:190:38: warning: ‘carries_dependency’ attribute directive ignored [-Wattributes]
+  190 | [[carries_dependency]] int* func_out()
+      |                                      ^
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp: In function ‘void attributeTest()’:
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:218:35: warning: ‘attr1’ attribute directive ignored [-Wattributes]
+  218 |     [[attr1]] int arr [[attr2]][10];
+      |                                   ^
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:218:35: warning: ‘attr2’ attribute directive ignored [-Wattributes]
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:223:17: warning: ‘attr1’ attribute directive ignored [-Wattributes]
+  223 |     [[attr1]] L1:
+      |                 ^
+/home/franktly/GitResp/insidecpp11/chapter8/src/main.cpp:226:5: warning: attributes at the beginning of statement are ignored [-Wattributes]
+  226 |     [[attr1]] goto L1;
+      |     ^~~~~~~~~
+[100%] Linking CXX executable chapter8
+[100%] Built target chapter8

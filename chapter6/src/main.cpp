@@ -426,7 +426,7 @@ void lock_free_func2(int n)
 // memory model : 7 kinds
 // 1. memory_order_relaxed: none guarantee for exec order
 // 2. memory_order_acquire: in the current thread, all subsequent read operations can be executed until current atomic operation has finished
-// 3. memory_order_release: in the current thread, current atomic operations can be executed untial all frontal write operations have finished
+// 3. memory_order_release: in the current thread, current atomic operations can be executed untial all previouse write operations have finished
 // 4. memory_order_acq_rel: both including memory_order_acquire and memory_order_release
 // 5. memory_order_consume: in the current thread, all subsequent related-current-atomic operation can be executed until current atomic operation has finished
 // 6. memory_order_seq_cst: all guarantee for exec order

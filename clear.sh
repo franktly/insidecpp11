@@ -4,3 +4,4 @@ rm -rf ./chapter4/build
 rm -rf ./chapter5/build
 rm -rf ./chapter6/build
 rm -rf ./chapter7/build
+rm -rf ./chapter8/build
