@@ -6,3 +6,4 @@ rm -rf ./chapter6/build
 rm -rf ./chapter7/build
 rm -rf ./chapter8/build
 rm -rf ./append/build
+rm -rf ./library/build
